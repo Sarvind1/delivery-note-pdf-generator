@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# AWS Lambda build artifacts
+*.zip
+function.zip
+lambda-layer.zip
+lambda-layer-optimized.zip
+lambda_deployment/lambda-layer-optimized.zip
+lambda_deployment/function.zip
+delivery_note_generator/lambda-layer.zip
+delivery_note_generator/function.zip
+
+# Generated PDFs and test outputs
+*.pdf
+delivery_note.pdf
+delivery_note_weasy.pdf
+delivery_note_landscape.pdf
+delivery_note_generator/test_output.pdf
+
+# Data files
+*.csv
+body.csv
+non_body.csv
+/tmp/
+
+# Large binary files and dependencies
+lambda-layer/
+.claude/settings.local.json
+
+# System
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,50 @@
+{
+  "non_body_data": {
+    "delivery_no": "3701-250909001",
+    "po_no": "3302-250800198",
+    "buyer": "Lisa Huang",
+    "delivery_date": "2025-09-09",
+    "inbship_no": "INBSHIP14376",
+    "batch_no": "BATCH0008326",
+    "supplier": "Wenzhou Wancheng Printing Co.,LTD 温州万成包装印刷有限公司",
+    "ship_from": "广东省惠州市惠阳区沙田镇横岭工业区（变电站背）;朱小姐 13414732853",
+    "contact_person": "赵佳俊、汪斌、方春喜",
+    "contact_phone": "Mobile: 15382494328; Work: 0579-85263175",
+    "delivery_address": "浙江省义乌市四海大道龙海路 825 号普洛斯物流园 A1U2 仓库（申通快递对面）",
+    "page_current": 1,
+    "page_total": 1
+  },
+  "body_data": [
+    {
+      "item_no": "0001",
+      "sku": "LJ-ZQSTA-071620-02-1",
+      "qty": 512,
+      "qty_per_carton": 16,
+      "cartons": 32,
+      "qc_result": "NO",
+      "length": 50,
+      "width": 40,
+      "height": 30,
+      "ctn_weight": 10,
+      "total_cbm": 1.92,
+      "total_weight": 320
+    },
+    {
+      "item_no": "0002",
+      "sku": "LJ-ZQSTA-071620-02-2",
+      "qty": 639,
+      "qty_per_carton": 20,
+      "cartons": 31,
+      "qc_result": "Yes",
+      "length": 45,
+      "width": 35,
+      "height": 25,
+      "ctn_weight": 8,
+      "total_cbm": 1.26,
+      "total_weight": 256
+    }
+  ],
+  "save_to_s3": false,
+  "s3_bucket": "your-bucket-name",
+  "s3_key": "delivery-notes/test.pdf"
+}
